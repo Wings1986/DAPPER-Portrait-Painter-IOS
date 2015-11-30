@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="canvas.png" translatesAutoresizingMaskIntoConstraints="NO" id="b9a-Kv-t2g">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame.png" translatesAutoresizingMaskIntoConstraints="NO" id="LOa-PB-YfX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dth-FI-GmK">
+                    <rect key="frame" x="0.0" y="438" width="236" height="130"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paint_board.png" translatesAutoresizingMaskIntoConstraints="NO" id="RAY-aA-M3Z">
+                            <rect key="frame" x="0.0" y="0.0" width="236" height="130"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="236" id="PVO-8n-TFI"/>
+                        <constraint firstAttribute="height" constant="130" id="QoH-8H-ZnA"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JTm-wV-Paf">
+                    <rect key="frame" x="238" y="471" width="82" height="97"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pen_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oac-8Q-Rdw">
+                            <rect key="frame" x="3" y="25" width="28" height="72"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pen_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="h9f-MQ-bk8">
+                            <rect key="frame" x="24" y="7" width="17" height="90"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pen_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rtv-C6-e15">
+                            <rect key="frame" x="32" y="0.0" width="50" height="97"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="97" id="Bda-LA-z9P"/>
+                        <constraint firstAttribute="width" constant="82" id="eps-kn-0v0"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nqo-N6-Ebd">
+                    <rect key="frame" x="73" y="169" width="175" height="230"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text_board.png" translatesAutoresizingMaskIntoConstraints="NO" id="IzI-eA-FVZ">
+                            <rect key="frame" x="0.0" y="0.0" width="175" height="230"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAe-kh-oEu">
+                            <rect key="frame" x="5" y="138" width="80" height="45"/>
+                            <state key="normal" image="btn_new_nor.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDo-4Q-ngH">
+                            <rect key="frame" x="86" y="138" width="80" height="45"/>
+                            <state key="normal" image="btn_open_nor.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="7CL-Eh-zQY"/>
+                        <constraint firstAttribute="width" constant="175" id="LZA-CP-oXP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="b9a-Kv-t2g" secondAttribute="bottom" id="ANf-uz-pN3"/>
+                <constraint firstItem="LOa-PB-YfX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Eqe-ol-Q1l"/>
+                <constraint firstItem="dth-FI-GmK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ezh-De-f6Z"/>
+                <constraint firstAttribute="centerX" secondItem="nqo-N6-Ebd" secondAttribute="centerX" id="FVl-BU-CVf"/>
+                <constraint firstAttribute="bottom" secondItem="dth-FI-GmK" secondAttribute="bottom" id="J5a-ES-Ycu"/>
+                <constraint firstAttribute="trailing" secondItem="b9a-Kv-t2g" secondAttribute="trailing" id="OCt-IR-gu5"/>
+                <constraint firstAttribute="trailing" secondItem="JTm-wV-Paf" secondAttribute="trailing" id="OG4-bl-do9"/>
+                <constraint firstAttribute="trailing" secondItem="LOa-PB-YfX" secondAttribute="trailing" id="ShD-4V-c8X"/>
+                <constraint firstAttribute="bottom" secondItem="LOa-PB-YfX" secondAttribute="bottom" id="TGc-u1-Wwm"/>
+                <constraint firstItem="LOa-PB-YfX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Tbz-gd-oPe"/>
+                <constraint firstAttribute="bottom" secondItem="JTm-wV-Paf" secondAttribute="bottom" id="WRp-QN-SZh"/>
+                <constraint firstAttribute="centerY" secondItem="nqo-N6-Ebd" secondAttribute="centerY" id="cdf-nt-uYj"/>
+                <constraint firstItem="b9a-Kv-t2g" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gCw-KD-Z2c"/>
+                <constraint firstItem="b9a-Kv-t2g" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sW2-vl-PUg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="512" y="404"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_new_nor.png" width="160" height="90"/>
+        <image name="btn_open_nor.png" width="160" height="90"/>
+        <image name="canvas.png" width="521" height="750"/>
+        <image name="frame.png" width="640" height="853"/>
+        <image name="paint_board.png" width="472" height="260"/>
+        <image name="pen_1.png" width="56" height="144"/>
+        <image name="pen_2.png" width="34" height="180"/>
+        <image name="pen_3.png" width="100" height="194"/>
+        <image name="text_board.png" width="350" height="460"/>
+    </resources>
+</document>
